@@ -24,7 +24,7 @@ namespace AppOOP
             }
         }
         //3. Phuong thuc (Method)
-        public void StudentN(string stName)
+        public  Student()
         {
             Console.WriteLine("Tên tôi là:");
         }
@@ -38,9 +38,12 @@ namespace AppOOP
         
         static void Main(string[] args)
         {
+            Student h1 = new Student();
+           
+            
+
 
         }
     }
 }
-
 
